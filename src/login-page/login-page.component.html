@@ -1,0 +1,12 @@
+<div class="login-page">
+    <h1>Book a meeting room</h1>
+    <div class="input-wrapper">
+        <label>Username</label>
+        <input #username type="text" (keyup)="change($event)">
+    </div>
+    <div class="input-wrapper">
+        <label>Password</label>
+        <input #password type="text" (keyup)="change($event)">
+    </div>
+    <button [disabled]="restrictSubmit()"  [class.disabled]="restrictSubmit()" (click)="submit()">Login</button>
+</div>
