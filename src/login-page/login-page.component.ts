@@ -1,6 +1,5 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { AppRoutingModule } from '../app/app-routing.module';
 
 @Component({
   selector: 'app-login-page',
